@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
+    <PackageTargetFallback>$(PackageTargetFallback);net461;</PackageTargetFallback>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NHibernate" Version="4.1.1.4000" />
+  </ItemGroup>
 
 </Project>

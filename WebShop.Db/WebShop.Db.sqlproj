@@ -64,4 +64,7 @@
   <ItemGroup>
     <RefactorLog Include="WebShop.Db.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="WebShop.Db.publish.xml" />
+  </ItemGroup>
 </Project>

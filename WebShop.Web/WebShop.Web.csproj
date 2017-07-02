@@ -154,9 +154,9 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebShop.Data\WebShop.Data.csproj">
-      <Project>{3b033821-e88a-4990-9e90-578e019e7b3b}</Project>
-      <Name>WebShop.Data</Name>
+    <ProjectReference Include="..\WebShop.Domain\WebShop.Domain.csproj">
+      <Project>{4e03eb83-87fb-4933-89c4-7e9f28b1464e}</Project>
+      <Name>WebShop.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
